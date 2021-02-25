@@ -1,1 +1,37 @@
 # listas.html
+<!--
+    Listas = ( <li> ). Atalho ex: (<li*3)
+
+    - Ordenadas
+    - Não ordenadas
+-->
+
+
+<h1>Suco Detox</h1>
+<h2>Ingredientes:</h2>
+
+<li>3 folhas de couve</li>
+<li>1 laranja</li>
+<li>1 pedacinho de gengibre</li>
+<li>300 ml de água</li>
+<li>Gelo a gosto</li>
+
+<!--Lista Ordenada-->
+
+<ol>
+    <li>3 folhas de couve</li>
+    <li>1 laranja</li>
+    <li>1 pedacinho de gengibre</li>
+    <li>300 ml de água</li>
+    <li>Gelo a gosto</li> 
+</ol> 
+
+<!--Lista Não ordenada-->
+
+<ul>
+    <li>3 folhas de couve</li>
+    <li>1 laranja</li>
+    <li>1 pedacinho de gengibre</li>
+    <li>300 ml de água</li>
+    <li>Gelo a gosto</li>
+</ul>
