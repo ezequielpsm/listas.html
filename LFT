@@ -35,3 +35,42 @@ elif C_C3_B3digo == 7:
 print('O desconto é de R$' + str(Valor_com_Desconto))
 
 valor_da_compra
+
+Exercicio 3 
+
+Valor = None
+Quadrado = None
+
+def text_prompt(msg):
+  try:
+    return raw_input(msg)
+  except NameError:
+    return input(msg)
+
+
+Valor = float(text_prompt('Digite o valor'))
+while Valor != 0:
+  Quadrado = Valor ** 2
+  print(Quadrado)
+  Valor = float(text_prompt('digite um valor'))
+print('Fim')
+
+Exercicio 4 
+
+Valor = None
+Expoente = None
+Resultado = None
+
+def text_prompt(msg):
+  try:
+    return raw_input(msg)
+  except NameError:
+    return input(msg)
+
+
+Valor = text_prompt('Digite um valor')
+Expoente = float(text_prompt('Digite o Expoente'))
+Resultado = 1
+for count in range(int(Expoente)):
+  Resultado = Resultado * Valor
+print(Resultado)
