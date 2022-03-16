@@ -74,3 +74,10 @@ Resultado = 1
 for count in range(int(Expoente)):
   Resultado = Resultado * Valor
 print(Resultado)
+
+Exercicio 1 de loops 
+
+
+print('0')
+for i in range(10):
+  print(i + 1)
